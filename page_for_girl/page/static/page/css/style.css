@@ -1,0 +1,760 @@
+/* body{
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0px;
+  max-width: 1440px;
+  height: 4000px;
+  min-height: 100%;
+  min-width: 100%;
+  min-height: 1440px;
+  max-width: 4000px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  background-image: url("../img/background1.png");
+  background-color: b885fd;
+  background-size: 100%;
+  background-repeat: no-repeat;
+} */
+body{
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0px;
+  max-width: 1440px;
+  height: 4000px;
+  min-height: 100%;
+  min-width: 100%;
+  min-height: 1440px;
+  max-width: 4000px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  background-image: url("../img/background1.png");
+  background-color: #8a57f5;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+
+main{
+  width: 1440px;
+  height: 1600px;
+  margin: 0 auto;
+}
+
+footer{
+  position: relative;
+  right: 50px;
+}
+
+#body{
+  width: 611px;
+  background-size: contain ;
+  background-repeat: no-repeat;
+  background-image: url("../img/background1.png");
+  max-width: 640px;
+}
+.fon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 3869px;
+  z-index: 10;
+}
+
+
+.wrapper{
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  /* overflow: hidden;
+  width: 1440px;
+  height: 4000px; */
+
+}
+.wrapper1{
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+/* header{
+  width: 1440px;
+  height: 1200px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+} */
+
+.container{
+  max-width: 1340px;
+  margin: 0 auto;
+  position: relative;
+
+
+}
+
+.container2{
+  max-width: 1340px;
+  margin: 0 auto;
+  position: relative;
+  top: -100px;
+
+
+}
+.logo{
+  /* width: 370px;
+  height: 170px; */
+  margin-left: 120px;
+  margin-top: 70px;
+}
+
+.compound_path{
+  background-image: url("../img/pfth.png");
+  position: absolute;
+  left: 644px;
+  top: 685px;
+  width: 160px;
+  height: 58px;
+  z-index: 152;
+}
+
+
+.man{
+  position: relative;
+  top: 1550px;
+
+  
+
+}
+.container3{
+  position: relative;
+  top: 100px;
+}
+/* .logo2{
+  float: right;
+  width: 230px;
+  height: 180px;
+  position: relative;
+  text-align: center;
+  color: white;
+} */
+
+.uper{
+  /* width: 1440px;
+  height: 175px; */
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.woman {
+  /* background-image: url("img/ТРИ.png"); */
+  position: absolute;
+  left: 750px;
+  top: 0px;
+  margin-right: 58px;
+  /* width: 1415px;
+  height: 926px; */
+  /* z-index: 55; */
+  
+}
+.woman {
+  /*border-radius: 50%;*/
+  /* background-image: -moz-linear-gradient( -93deg, rgb(216,216,216) 0%, rgb(134,90,200) 0%, rgb(76,51,151) 100%);
+  background-image: -webkit-linear-gradient( -93deg, rgb(216,216,216) 0%, rgb(134,90,200) 0%, rgb(76,51,151) 100%);
+  background-image: -ms-linear-gradient( -93deg, rgb(216,216,216) 0%, rgb(134,90,200) 0%, rgb(76,51,151) 100%); */
+  /* position: absolute;
+  left: 500px;
+  top: 177px;
+  width: 542px;
+  height: 542px;
+  z-index: 37; */
+}
+
+.bottom-left{
+  position: absolute;
+  right: 625px;
+  top: 700px;
+  bottom: 8px;
+}
+circle{
+position: absolute;
+
+}
+
+
+.text-zero-title{
+  font-size: 22.311px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.288;
+  text-align: center;
+  -moz-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -webkit-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -ms-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  position: relative; 
+  right:-px;
+  top: -270px;
+  z-index: 49;
+}
+.text-zero-title1{
+  font-size: 22.311px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.288;
+  text-align: center;
+  -moz-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -webkit-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -ms-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  position: relative; 
+  right: 5px;
+  top: -270px;
+  z-index: 49;
+}
+.text-zero-title2{
+  font-size: 22.311px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.288;
+  text-align: center;
+  -moz-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -webkit-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -ms-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  position: relative; 
+  right: 7px;
+  top: -270px;
+  z-index: 49;
+}
+
+.sub-title{
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.188;
+  text-align: center;
+  -moz-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  -webkit-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  -ms-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  position: relative;
+  left: 20px;
+  top: -250px;
+  /* width: 309.481px; */
+  height: 48.608px;
+  z-index: 47;
+}
+
+.sub-title2{
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.188;
+  text-align: center;
+  -moz-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  -webkit-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  -ms-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  position: relative;
+  left: 173px;
+  top: -265px;
+  width: 309.481px;
+  height: 48.608px;
+  z-index: 47;
+}
+.position{
+  position: relative;
+
+}
+.t{
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+
+
+
+.palet1{
+  background-image: url("Слой 1.png");
+  position: absolute;
+  left: -840px;
+  top: 0px;
+  /* width: 1407px;
+  height: 634px; */
+  z-index: 29;
+}
+
+.star {
+  font-size: 7.344px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  /* text-align: center; */
+  -moz-transform: matrix( 18.1235954030043,0.03084243158942,-0.02884837151465,19.3763364107948,0,0);
+  -webkit-transform: matrix( 18.1235954030043,0.03084243158942,-0.02884837151465,19.3763364107948,0,0);
+  -ms-transform: matrix( 18.1235954030043,0.03084243158942,-0.02884837151465,19.3763364107948,0,0);
+  position: absolute;
+  left: -320px;
+  top: 470px;
+  z-index: 31;
+}
+
+.arrows1{
+  position: relative;
+  top: -100px;
+  left: -100px;
+
+}
+
+.inte {
+  font-size: 7.344px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 0px 41.28px rgba(70, 49, 148, 0.33);
+  -moz-transform: matrix( 17.1003026588138,0.02910100910912,-0.02721953746731,18.2823115212923,0,0);
+  -webkit-transform: matrix( 17.1003026588138,0.02910100910912,-0.02721953746731,18.2823115212923,0,0);
+  -ms-transform: matrix( 17.1003026588138,0.02910100910912,-0.02721953746731,18.2823115212923,0,0);
+  position: relative;
+  top: 300px;
+  right:  650px;
+  /* left: 440.072px;
+  top: 270px; */
+  z-index: 30;
+}
+
+
+
+.online {
+  font-size: 25.492px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.429;
+  -moz-transform: matrix( 1.1442622079982,0.00697932778727,-0.00697932778727,1.14426220799821,0,0);
+  -webkit-transform: matrix( 1.1442622079982,0.00697932778727,-0.00697932778727,1.14426220799821,0,0);
+  -ms-transform: matrix( 1.1442622079982,0.00697932778727,-0.00697932778727,1.14426220799821,0,0);
+  position: absolute;
+  left: 500px;
+  top: 1100px;
+  z-index: 51;
+}
+.online {
+  font-size: 34.92px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.429;
+  -moz-transform: matrix( 1.36966868969044,0.00835417501207,-0.00835417501206,1.36966868969045,0,0);
+  -webkit-transform: matrix( 1.36966868969044,0.00835417501207,-0.00835417501206,1.36966868969045,0,0);
+  -ms-transform: matrix( 1.36966868969044,0.00835417501207,-0.00835417501206,1.36966868969045,0,0);
+  position: absolute;
+  left: 410px;
+  top: 1080px;
+  z-index: 159;
+}
+
+
+.table {
+  border-width: 2px;
+  border-color: rgb(241, 241, 241);
+  border-style: solid;
+  border-radius: 91px;
+  position: absolute;
+  left: 233px;
+  top: 1215px;
+  width: 375px;
+  height: 182px;
+  z-index: 41;
+}
+
+.table2 {
+  border-width: 2px;
+  border-color: rgb(241, 241, 241);
+  border-style: solid;
+  border-radius: 91px;
+  position: absolute;
+  left: 842px;
+  top: 1211px;
+  width: 374px;
+  height: 182px;
+  z-index: 42;
+}
+
+
+.arrow {
+
+  position: absolute;
+  left: 657px;
+  top: 1282px;
+  width: 140px;
+  height: 57px;
+  z-index: 46;
+}
+
+.arrow2{
+  position: absolute;
+  left: 731px;
+  top: 1518px;
+  width: 27px;
+  height: 65px;
+  z-index: 50;
+}
+
+.program {
+  font-size: 34.92px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.188;
+  text-align: left;
+  -moz-transform: matrix( 1.24029878378631,0,0,1.24029882036272,0,0);
+  -webkit-transform: matrix( 1.24029878378631,0,0,1.24029882036272,0,0);
+  -ms-transform: matrix( 1.24029878378631,0,0,1.24029882036272,0,0);
+  position: absolute;
+  left: 620px;
+  top: 1450.515px;
+  width: 142.682px;
+  height: 17.036px;
+  z-index: 48;
+}
+
+.tables{
+  /* border-style: solid;
+  border-width: 3px; */
+  /* border-color: rgb(255, 255, 255); */
+  position: absolute;
+  left: 160px;
+  top: 1673px;
+  width: 295px;
+  height: 344px;
+  z-index: 52;
+}
+
+.tables1{
+  position: relative;
+  top: -123px;
+  right: 70px;
+
+}
+
+@font-face {
+  font-family: "ArtifaktElement";
+  src: url("../fonts/ArtifaktElement-Light.woff.ttf") format("woff2"),
+  url("../fonts/ArtifaktElement-Light.woff.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+.text {
+  font-size: 25px;
+  font-family: "ArtifaktElement";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  -moz-transform: matrix( 4.43292225674614,3.52008195810332e-15,-6.00709406423528e-15,4.43292225674614,0,0);
+  -webkit-transform: matrix( 4.43292225674614,3.52008195810332e-15,-6.00709406423528e-15,4.43292225674614,0,0);
+  -ms-transform: matrix( 4.43292225674614,3.52008195810332e-15,-6.00709406423528e-15,4.43292225674614,0,0);
+  position: absolute;
+  left: 90px;
+  top: 75px;
+  z-index: 38;
+}
+
+.text2 {
+  font-size: 25px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  -moz-transform: matrix( 0.98762447587581,7.84249959182346e-16,-9.93424587044346e-17,0.9876244758758,0,0);
+  -webkit-transform: matrix( 0.98762447587581,7.84249959182346e-16,-9.93424587044346e-17,0.9876244758758,0,0);
+  -ms-transform: matrix( 0.98762447587581,7.84249959182346e-16,-9.93424587044346e-17,0.9876244758758,0,0);
+  position: absolute;
+  left: 185px;
+  top: 70px;
+  z-index: 37;
+}
+
+
+.text1 {
+  font-size: 25px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  -moz-transform: matrix( 1.10162351156943,8.74773980481305e-16,-1.10809311513744e-16,1.10162351156943,0,0);
+  -webkit-transform: matrix( 1.10162351156943,8.74773980481305e-16,-1.10809311513744e-16,1.10162351156943,0,0);
+  -ms-transform: matrix( 1.10162351156943,8.74773980481305e-16,-1.10809311513744e-16,1.10162351156943,0,0);
+  position: absolute;
+  left: 185px;
+  top: 40px;
+  z-index: 36;
+}
+
+
+
+.Oval {
+
+  border-color: rgb(242, 242, 242);
+  border-style: solid;
+  position: absolute;
+  width: 1440px;
+  height: 3000px;
+  z-index: 18;
+}
+
+.subtitle {
+  font-size: 29px;
+  font-family: "KRUB";
+  color: rgb(242, 242, 242);
+  font-weight: SemiBold;
+  text-transform: uppercase;
+  line-height: 1.506;
+  text-align: left;
+  -moz-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -webkit-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -ms-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  position: absolute;
+  left: 70px;
+  top: 70px;
+  z-index: 58;
+}
+
+.subtitle1 {
+  font-size: 29px;
+  font-family: "Myriad Pro";
+  color: #b885fd;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.506;
+  text-align: left;
+  -moz-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -webkit-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -ms-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  position: absolute;
+  left: 165px;
+  top: 70px;
+  z-index: 59;
+}
+
+
+.subtitle2 {
+  font-size: 33.333px;
+  font-family: "Myriad Pro";
+  color: rgb(242, 242, 242);
+  line-height: 1.875;
+  text-align: center;
+  -moz-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  -webkit-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  -ms-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  position: absolute;
+  left: -170px;
+  top: 80px;
+  width: 628.093px;
+  height: 219.633px;
+  z-index: 57;
+}
+
+.subtitle3 {
+  font-size: 29px;
+  font-family: "KRUB";
+  color: rgb(242, 242, 242);
+  font-weight: SemiBold;
+  text-transform: uppercase;
+  line-height: 1.506;
+  text-align: left;
+  -moz-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -webkit-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -ms-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  position: absolute;
+  left: 70px;
+  top: 70px;
+  z-index: 58;
+}
+
+.subtitle4 {
+  font-size: 29px;
+  font-family: "Myriad Pro";
+  color: #b885fd;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.506;
+  text-align: left;
+  -moz-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -webkit-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -ms-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  position: absolute;
+  left: 165px;
+  top: 70px;
+  z-index: 59;
+}
+
+
+.subtitle5 {
+  font-size: 33.333px;
+  font-family: "Myriad Pro";
+  color: rgb(242, 242, 242);
+  line-height: 1.875;
+  text-align: center;
+  -moz-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  -webkit-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  -ms-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  position: absolute;
+  left: -170px;
+  top: 80px;
+  width: 628.093px;
+  height: 219.633px;
+  z-index: 57;
+}
+
+.container4{
+  max-width: 1340px;
+  margin: auto;
+  position: relative;
+  left: 350px;
+  top: 1500px;
+}
+
+.positiona{
+  position: relative;
+  top: 80px;
+  left: 0px;
+
+}
+.positionb{
+  position: relative;
+  top: -100px;
+  left: 0px;
+
+}
+.positions{
+  position: relative;
+  top: -300px;
+  left: 0px;
+
+}
+
+.positiond{
+  position: relative;
+  top: -500px;
+  left: 0px;
+
+}
+
+.come{
+  position:absolute;
+  /* left: 350px;
+  top: 1550px; */
+}
+
+/* .but{
+  display: inline-block;
+  user-select: none;
+  position: absolute;
+  line-height: 1.5;
+  font-size: 1rem;
+  top: 10px;
+  left: 450px;
+  background-image: url("../img/but.svg");
+  width: 640px;
+} */
+
+.arr{
+  position: absolute;
+  top: 200px;
+  left: 330px;
+}
+
+.qr{
+  position: relative;
+  top: 125px;
+  left:470px;
+}
+
+.but{
+  background-image: url("../img/but.svg");
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  left: 50px;
+  /* border: none; */
+  /* border-radius: 100%; */
+  
+  left: 460px;
+  top: 20px; 
+  width: 320px;
+  height: 100px;
+  z-index: 450;
+}
+.image-button{
+  width: 320px;
+  height: 100px;
+  border-radius: 200px;
+  z-index: 10;
+}
+  
+.click{
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 178, 227);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.188;
+  text-align: center;
+  -moz-transform: matrix( 1.54651909789379,0,0,1.54923155718581,0,0);
+  -webkit-transform: matrix( 1.54651909789379,0,0,1.54923155718581,0,0);
+  -ms-transform: matrix( 1.54651909789379,0,0,1.54923155718581,0,0);
+  position: absolute;
+  width: 92.006px;
+  height: 19.792px;
+  z-index: 483;
+  top: 35px;
+  left: 150px;
+  
+}
+.pngpath{
+  position: relative;
+  top: -75px;
+  left: 40px;
+}
+.image-button:hover {
+  opacity: 0.8;
+}
+
+.image-button:active {
+  transform: scale(0.95);
+}
+
+.button-cl{
+  position: relative;
+  width: 308px;
+  height: 90px;
+  
+}
+
+
+
+
