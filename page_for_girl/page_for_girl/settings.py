@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5o@cq5#^t&3l&3vbpuoiz($i1s#!)5o_gh(k6y-h9q&iuj2b40
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['setet9l4.beget.tech']
+ALLOWED_HOSTS = ['limegg.pythonanywhere.com', 'www.limegg.pythonanywhere.com']
 
 
 # Application definition
