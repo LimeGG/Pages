@@ -120,7 +120,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    '/home/LimeGG/limegg.pythonanywhere.com/page_for_girl',
+    '/home/LimeGG/limegg.pythonanywhere.com/static',
 ]
 
 # Default primary key field type
