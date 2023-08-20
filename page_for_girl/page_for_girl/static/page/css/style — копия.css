@@ -1,0 +1,578 @@
+body{
+
+  /* background-color: blue; */
+  margin-top: 0;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  width: 1440px;
+  height: 3000px;
+  min-height: 100%;
+  min-width: 100%;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  background-image: url("../img/background.jpg");
+  background-size: cover ;
+  background-repeat: no-repeat;
+
+  
+}
+
+main{
+  width: 1440;
+  height: 1600;
+
+}
+
+#body{
+  width: 640px;
+  background-size: contain ;
+  background-repeat: no-repeat;
+}
+
+.wrapper{
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+}
+.wrapper1{
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+/* header{
+  width: 1440px;
+  height: 1200px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+} */
+
+.container{
+  max-width: 1340px;
+  margin: 0 auto;
+  position: relative;
+
+
+}
+
+.container2{
+  max-width: 1340px;
+  margin: 0 auto;
+  position: relative;
+
+
+}
+.logo{
+  /* width: 370px;
+  height: 170px; */
+  margin-left: 120px;
+  margin-top: 70px;
+}
+
+.logo2{
+  float: right;
+  width: 230px;
+  height: 180px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.uper{
+  /* width: 1440px;
+  height: 175px; */
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .woman{
+  width: 1440px;
+  height: 925px;
+
+} */
+.woman {
+  /* background-image: url("img/ТРИ.png"); */
+  position: absolute;
+  left: 100px;
+  top: 138px;
+  /* width: 1415px;
+  height: 926px; */
+  z-index: 55;
+  
+}
+
+
+
+.text-zero-title{
+  font-size: 22.311px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.288;
+  text-align: center;
+  -moz-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -webkit-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -ms-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  position: absolute; 
+  right:840px;
+  top: 740px;
+  z-index: 49;
+}
+.text-zero-title1{
+  font-size: 22.311px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.288;
+  text-align: center;
+  -moz-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -webkit-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -ms-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  position: absolute; 
+  right:800px;
+  top: 770px;
+  z-index: 49;
+}
+.text-zero-title2{
+  font-size: 22.311px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.288;
+  text-align: center;
+  -moz-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -webkit-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  -ms-transform: matrix( 0.95643700542782,0,0,0.95643700542782,0,0);
+  position: absolute; 
+  right:920px;
+  top: 800px;
+  z-index: 49;
+}
+
+.sub-title{
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.188;
+  text-align: center;
+  -moz-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  -webkit-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  -ms-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  position: absolute;
+  left: 150px;
+  top: 660px;
+  /* width: 309.481px; */
+  height: 48.608px;
+  z-index: 47;
+}
+
+.sub-title2{
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.188;
+  text-align: center;
+  -moz-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  -webkit-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  -ms-transform: matrix( 1.24029882036273,0,0,1.24029882036272,0,0);
+  position: absolute;
+  left: 180px;
+  top: 700px;
+  width: 309.481px;
+  height: 48.608px;
+  z-index: 47;
+}
+
+.yers {
+  font-size: 33px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  -moz-transform: matrix( 2.06552354675312,-9.39084762431863e-18,1.79204611827753e-15,2.06552354675313,0,0);
+  -webkit-transform: matrix( 2.06552354675312,-9.39084762431863e-18,1.79204611827753e-15,2.06552354675313,0,0);
+  -ms-transform: matrix( 2.06552354675312,-9.39084762431863e-18,1.79204611827753e-15,2.06552354675313,0,0);
+
+  z-index: 43;
+}
+.yers2 {
+  font-size: 33px;
+  font-family: "Krub";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  -moz-transform: matrix( 1.57385969805133,-0.00665534769829,0.0066553476983,1.57385969805133,0,0);
+  -webkit-transform: matrix( 1.57385969805133,-0.00665534769829,0.0066553476983,1.57385969805133,0,0);
+  -ms-transform: matrix( 1.57385969805133,-0.00665534769829,0.0066553476983,1.57385969805133,0,0);
+  /* position: absolute;
+  left: 1224.313px;
+  top: 125.908px; */
+  z-index: 40;
+  font-size: 100%;
+}
+
+
+
+
+.bottom-left{
+    /* position: absolute; */
+    bottom: 8px;
+}
+
+
+.palet1{
+  background-image: url("Слой 1.png");
+  position: absolute;
+  left: -200px;
+  top: -80px;
+  /* width: 1407px;
+  height: 634px; */
+  z-index: 29;
+}
+
+.star {
+  font-size: 7.344px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  /* text-align: center; */
+  -moz-transform: matrix( 18.1235954030043,0.03084243158942,-0.02884837151465,19.3763364107948,0,0);
+  -webkit-transform: matrix( 18.1235954030043,0.03084243158942,-0.02884837151465,19.3763364107948,0,0);
+  -ms-transform: matrix( 18.1235954030043,0.03084243158942,-0.02884837151465,19.3763364107948,0,0);
+  position: absolute;
+  left: 522.689px;
+  top: 430px;
+  z-index: 31;
+}
+.inte {
+  font-size: 7.344px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 0px 41.28px rgba(70, 49, 148, 0.33);
+  -moz-transform: matrix( 17.1003026588138,0.02910100910912,-0.02721953746731,18.2823115212923,0,0);
+  -webkit-transform: matrix( 17.1003026588138,0.02910100910912,-0.02721953746731,18.2823115212923,0,0);
+  -ms-transform: matrix( 17.1003026588138,0.02910100910912,-0.02721953746731,18.2823115212923,0,0);
+  position: absolute;
+  left: 440.072px;
+  top: 270px;
+  z-index: 30;
+}
+
+
+
+.online {
+  font-size: 25.492px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.429;
+  -moz-transform: matrix( 1.1442622079982,0.00697932778727,-0.00697932778727,1.14426220799821,0,0);
+  -webkit-transform: matrix( 1.1442622079982,0.00697932778727,-0.00697932778727,1.14426220799821,0,0);
+  -ms-transform: matrix( 1.1442622079982,0.00697932778727,-0.00697932778727,1.14426220799821,0,0);
+  position: absolute;
+  left: 500px;
+  top: 1161.274px;
+  z-index: 51;
+}
+
+.table {
+  border-width: 2px;
+  border-color: rgb(241, 241, 241);
+  border-style: solid;
+  border-radius: 91px;
+  position: absolute;
+  left: 233px;
+  top: 1215px;
+  width: 375px;
+  height: 182px;
+  z-index: 41;
+}
+
+.table2 {
+  border-width: 2px;
+  border-color: rgb(241, 241, 241);
+  border-style: solid;
+  border-radius: 91px;
+  position: absolute;
+  left: 842px;
+  top: 1211px;
+  width: 374px;
+  height: 182px;
+  z-index: 42;
+}
+
+
+.arrow {
+
+  position: absolute;
+  left: 657px;
+  top: 1282px;
+  width: 140px;
+  height: 57px;
+  z-index: 46;
+}
+
+.arrow2{
+  position: absolute;
+  left: 731px;
+  top: 1518px;
+  width: 27px;
+  height: 65px;
+  z-index: 50;
+}
+
+.program {
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: rgb(231, 228, 215);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.188;
+  text-align: left;
+  -moz-transform: matrix( 1.24029878378631,0,0,1.24029882036272,0,0);
+  -webkit-transform: matrix( 1.24029878378631,0,0,1.24029882036272,0,0);
+  -ms-transform: matrix( 1.24029878378631,0,0,1.24029882036272,0,0);
+  position: absolute;
+  left: 673.009px;
+  top: 1450.515px;
+  width: 142.682px;
+  height: 17.036px;
+  z-index: 48;
+}
+
+.tables{
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 160px;
+  top: 1673px;
+  width: 295px;
+  height: 344px;
+  z-index: 52;
+}
+
+.tables1{
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 590px;
+  top: 1673px;
+  width: 295px;
+  height: 344px;
+  z-index: 52;
+}
+
+.tables2{
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1020px;
+  top: 1673px;
+  width: 295px;
+  height: 344px;
+  z-index: 52;
+}
+@font-face {
+  font-family: "ArtifaktElement";
+  src: url("../fonts/ArtifaktElement-Light.woff.ttf") format("woff2"),
+  url("../fonts/ArtifaktElement-Light.woff.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+.text {
+  font-size: 25px;
+  font-family: "ArtifaktElement";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  -moz-transform: matrix( 4.43292225674614,3.52008195810332e-15,-6.00709406423528e-15,4.43292225674614,0,0);
+  -webkit-transform: matrix( 4.43292225674614,3.52008195810332e-15,-6.00709406423528e-15,4.43292225674614,0,0);
+  -ms-transform: matrix( 4.43292225674614,3.52008195810332e-15,-6.00709406423528e-15,4.43292225674614,0,0);
+  position: absolute;
+  left: 90px;
+  top: 75px;
+  z-index: 38;
+}
+
+.text2 {
+  font-size: 25px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  -moz-transform: matrix( 0.98762447587581,7.84249959182346e-16,-9.93424587044346e-17,0.9876244758758,0,0);
+  -webkit-transform: matrix( 0.98762447587581,7.84249959182346e-16,-9.93424587044346e-17,0.9876244758758,0,0);
+  -ms-transform: matrix( 0.98762447587581,7.84249959182346e-16,-9.93424587044346e-17,0.9876244758758,0,0);
+  position: absolute;
+  left: 185px;
+  top: 70px;
+  z-index: 37;
+}
+
+
+.text1 {
+  font-size: 25px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  -moz-transform: matrix( 1.10162351156943,8.74773980481305e-16,-1.10809311513744e-16,1.10162351156943,0,0);
+  -webkit-transform: matrix( 1.10162351156943,8.74773980481305e-16,-1.10809311513744e-16,1.10162351156943,0,0);
+  -ms-transform: matrix( 1.10162351156943,8.74773980481305e-16,-1.10809311513744e-16,1.10162351156943,0,0);
+  position: absolute;
+  left: 185px;
+  top: 40px;
+  z-index: 36;
+}
+
+
+
+.Oval {
+
+  border-color: rgb(242, 242, 242);
+  border-style: solid;
+  position: absolute;
+  width: 1440px;
+  height: 3000px;
+  z-index: 18;
+}
+
+.subtitle {
+  font-size: 29px;
+  font-family: "KRUB";
+  color: rgb(242, 242, 242);
+  font-weight: SemiBold;
+  text-transform: uppercase;
+  line-height: 1.506;
+  text-align: left;
+  -moz-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -webkit-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -ms-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  position: absolute;
+  left: 70px;
+  top: 70px;
+  z-index: 58;
+}
+
+.subtitle1 {
+  font-size: 29px;
+  font-family: "Myriad Pro";
+  color: #b885fd;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.506;
+  text-align: left;
+  -moz-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -webkit-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -ms-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  position: absolute;
+  left: 165px;
+  top: 70px;
+  z-index: 59;
+}
+
+
+.subtitle2 {
+  font-size: 33.333px;
+  font-family: "Myriad Pro";
+  color: rgb(242, 242, 242);
+  line-height: 1.875;
+  text-align: center;
+  -moz-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  -webkit-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  -ms-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  position: absolute;
+  left: -170px;
+  top: 80px;
+  width: 628.093px;
+  height: 219.633px;
+  z-index: 57;
+}
+
+.subtitle3 {
+  font-size: 29px;
+  font-family: "KRUB";
+  color: rgb(242, 242, 242);
+  font-weight: SemiBold;
+  text-transform: uppercase;
+  line-height: 1.506;
+  text-align: left;
+  -moz-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -webkit-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -ms-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  position: absolute;
+  left: 70px;
+  top: 70px;
+  z-index: 58;
+}
+
+.subtitle4 {
+  font-size: 29px;
+  font-family: "Myriad Pro";
+  color: #b885fd;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.506;
+  text-align: left;
+  -moz-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -webkit-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  -ms-transform: matrix( 1.15624452352619,8.07734855784723e-16,2.0071568218136e-15,1.1562445235262,0,0);
+  position: absolute;
+  left: 165px;
+  top: 70px;
+  z-index: 59;
+}
+
+
+.subtitle5 {
+  font-size: 33.333px;
+  font-family: "Myriad Pro";
+  color: rgb(242, 242, 242);
+  line-height: 1.875;
+  text-align: center;
+  -moz-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  -webkit-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  -ms-transform: matrix( 0.37216366786388,0,0,0.37216366786388,0,0);
+  position: absolute;
+  left: -170px;
+  top: 80px;
+  width: 628.093px;
+  height: 219.633px;
+  z-index: 57;
+}
+
+
+
+
+
+
+
+
+
